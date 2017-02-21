@@ -1,0 +1,12 @@
+#pepites h2 { background-image: url("img/title-pepites.jpg");}
+#grands-plaisirs h2 { background-image: url("img/title-grands-plaisirs.jpg");}
+#creme h2 { background-image: url("img/title-creme.jpg");}
+#desserts h2 { background-image: url("img/title-desserts.jpg");}
+#equilibre h2 { background-image: url("img/title-equilibre.jpg");}
+#exclusivite h2 { background-image: url("img/title-exclusivite.jpg");}
+#plaisirs-coupables h2 { background-image: url("img/title-plaisirs-coupables.jpg");}
+
+h2 {
+    height: 150px;
+    background-size: cover;
+}
