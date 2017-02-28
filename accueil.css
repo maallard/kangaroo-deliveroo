@@ -1,17 +1,44 @@
-#pepites .container-title { background-image: url("img/title-pepites.jpg");}
-#grands-plaisirs .container-title { background-image: url("img/title-grands-plaisirs.jpg");}
-#creme .container-title { background-image: url("img/title-creme.jpg");}
-#desserts .container-title { background-image: url("img/title-desserts.jpg");}
-#equilibre .container-title { background-image: url("img/title-equilibre.jpg");}
-#exclusivite .container-title { background-image: url("img/title-exclusivite.jpg");}
-#plaisirs-coupables .container-title { background-image: url("img/title-plaisirs-coupables.jpg");}
+#pepites .container-title {
+    background-image: url("img/title-pepites.jpg");
+}
+
+#grands-plaisirs .container-title {
+    background-image: url("img/title-grands-plaisirs.jpg");
+}
+
+#creme .container-title {
+    background-image: url("img/title-creme.jpg");
+}
+
+#desserts .container-title {
+    background-image: url("img/title-desserts.jpg");
+}
+
+#equilibre .container-title {
+    background-image: url("img/title-equilibre.jpg");
+}
+
+#exclusivite .container-title {
+    background-image: url("img/title-exclusivite.jpg");
+}
+
+#plaisirs-coupables .container-title {
+    background-image: url("img/title-plaisirs-coupables.jpg");
+}
+
+.orange-background {
+    background: #FFEAE4;
+}
+
+.rows-with-margin .row {
+    margin-bottom: 20px;
+}
 
 .container-title {
     height: 150px;
     background-size: cover;
     display: flex;
     margin-bottom: 10px;
-    margin-top: 20px;
 }
 
 .vertical-align {
@@ -19,20 +46,28 @@
     text-align: center;
 }
 
-h1 {
-    font-weight: bold;
-}
-
-h2 {
+.container-title h2 {
     color: white;
     text-align: center;
     width: 100%;
+}
+
+.fade-on-hover:hover {
+    opacity: 0.8;
+}
+
+.bold {
     font-weight: bold;
 }
 
 a, a:hover {
     color: black;
     text-decoration: none;
+}
+
+.section-title {
+  margin-bottom: 35px;
+  margin-top: 50px;
 }
 
 .pseudolink {
