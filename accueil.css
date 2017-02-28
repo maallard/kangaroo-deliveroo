@@ -1,3 +1,10 @@
+/*
+Background Images
+*/
+#header-logo {
+    background-image: url("img/header-pasta.jpg");
+}
+
 #pepites .container-title {
     background-image: url("img/title-pepites.jpg");
 }
@@ -24,12 +31,38 @@
 
 #plaisirs-coupables .container-title {
     background-image: url("img/title-plaisirs-coupables.jpg");
+    background-size: cover;
 }
 
+/*
+Background Colors
+*/
 .orange-background {
     background: #FFEAE4;
 }
 
+.teal-background {
+    background: #00CCBC;
+}
+
+.purple-background {
+    background-color: #440063;
+}
+
+.white-background {
+    background-color: #FFFFFF;
+}
+
+/*
+Text Color
+*/
+.white-text {
+    color: white;
+}
+
+/*
+Other
+*/
 .rows-with-margin .row {
     margin-bottom: 20px;
 }
@@ -42,12 +75,16 @@
 }
 
 .vertical-align {
+    display: flex;
     align-items: center;
-    text-align: center;
+}
+
+.horizontal-align {
+    display: flex;
+    justify-content: center;
 }
 
 .container-title h2 {
-    color: white;
     text-align: center;
     width: 100%;
 }
@@ -73,6 +110,37 @@ a, a:hover {
 .pseudolink {
     text-decoration: underline;
     color: rgb(0, 163, 150);
+}
+
+.no-border {
+    border: 0px solid white;
+}
+
+.flat {
+    padding: 10px 20px 10px 20px;
+    height: 100%;
+    border-radius: 0%;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.has-svg {
+    padding: 0 0 0 0;
+}
+
+svg {
+    position:
+    z-index: +50;
+}
+
+input:focus {
+    outline: none;
+}
+
+.header {
+    padding: 0 0 0 0;
 }
 
 @media screen and (min-width: 1200px) {
