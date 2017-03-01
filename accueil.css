@@ -124,15 +124,6 @@ Other
   padding-top: 50%;
 }
 
-/*@media screen and (max-width: 992px) {
-    .tailleImg {
-      width: 100%;
-      height: 350px;
-      max-height: 75%;
-      margin: 0 auto;
-    }
-}*/
-
 .container-title {
     height: 150px;
     background-size: cover;
@@ -173,10 +164,6 @@ Other
         padding-top: 0px;
     }
 }
-
-
-
-
 
 .container-title h2 {
     text-align: center;
@@ -238,12 +225,26 @@ input:focus {
         width: 1120px;
         margin: 0 auto;
     }
+
+    .sub-container-header {
+        padding-left: calc((100% - 1120px)/2);
+        width: 100%;
+    }
+
+    /*#header-search {
+        width: 560px; /* 1120px / 2 */
+    }/*
+
+    #header-logo {
+
+    }*/
 }
+
+
 
 /*
 CSS Clément
 */
-
 .shushi
 {
   width:250px;
