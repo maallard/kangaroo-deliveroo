@@ -240,27 +240,78 @@ input:focus {
     }
 }
 
-/*.footer {
-  background-color: #2e3333;
-  margin-bottom: 10px;
+/*
+CSS Clément
+*/
+
+.shushi
+{
+  width:250px;
+  height: 150px;
+}
+.ligne2
+{
+padding-top:3%;
+}
+.contain-fond{
+	background-color: #F3F5F5;
+	padding-bottom: 7%;
+}
+.fond-blanc{
+	background-color: white;
+}
+.titre1{
+	margin-top: 4%;
+	font-weight: bold;
+}
+.para1{
+	margin-top: 4%;
+}
+.bouton1{
+	margin-top: 2%;
+	margin-bottom: 5%;
+	background-color:#00CCBC;
+}
+.grostitre{
+	font-weight: bold;
+}
+.putaclic{
+	height: 50px;
+	margin-top: 2%;
+}
+.texte1
+{
+  padding-right: 4%;
+  padding-left: 3%;
+  padding-top: 1%;
+}
+.texte1 p{
+	color: white;
+	line-height: 25px;
+}
+.bouton{
+	margin-bottom: 8%;
+	background-color: #00CCBC;
+}
+.couleur-fond1{
+	background-color:#FF3D3D;
+}
+.couleur-fond2{
+	background-color:#FF8100;
+}
+.couleur-fond3{
+	background-color:#A0918A;
+}
+.pad{
+	padding-left: 4%;
+}
+.petitTitre{
+	color:white;
+	font-weight: bold;
 }
 
-.footer-primary {
-  text-align: center;
-  padding-bottom: 60px;
-  padding-top: 60px;
-  margin: auto 0px;
+/*Start CSS FOOTER*/
+.liste ul li{
+	list-style-type: none;
 }
-
-.footer-primary a {
-  color: #ffffff;
-  font-size: 14px;
-  border: solid green 1px;
-  margin-right: 20px;
-
-}
-
-.footer-secondary {
-  background: #2e3333;
-  float: left;
-}*/
+/*End CSS FOOTER*/
