@@ -84,6 +84,34 @@ Other
     justify-content: center;
 }
 
+.with-triangle {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(96deg, rgb(0, 204, 188) 14%, transparent 14.04%);
+}
+
+.no-padding {
+    padding: 0;
+}
+
+#header-search {
+    padding-top: 180px;
+}
+
+@media screen and (max-width: 992px) {
+    .with-triangle {
+        background-image: linear-gradient(-6deg, rgb(0, 204, 188) 14%, transparent 14.04%);
+    }
+
+    #header-search {
+        padding-top: 0px;
+    }
+}
+
+
+
+
+
 .container-title h2 {
     text-align: center;
     width: 100%;
@@ -124,15 +152,6 @@ a, a:hover {
 
 .inline-block {
     display: inline-block;
-}
-
-.has-svg {
-    padding: 0 0 0 0;
-}
-
-svg {
-    position:
-    z-index: +50;
 }
 
 input:focus {

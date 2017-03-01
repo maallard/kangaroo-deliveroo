@@ -22,21 +22,14 @@
 </head>
 
 <body>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
     <div class="container-fluid teal-background header">
         <div class="sub-container">
-            <div class="col-md-6 col-md-push-6 horizontal-align has-svg vertical-align horizontal-align" id="header-logo" style="height: 518px;">
-                <!-- <svg height="518" width="60">
-                    <polygon points="0,0 60,0 0,518" style="fill:#00CCBC;" />
-                </svg> -->
-                <img alt="Logo" src="img/roo.svg" class="inline-block"/>
+            <div class="col-md-6 col-md-push-6 no-padding" id="header-logo" style="height: 518px;">
+                <div class="horizontal-align with-triangle vertical-align">
+                    <img alt="Logo" src="img/roo.svg" class="inline-block" />
+                </div>
             </div>
-            <div class="col-md-6 col-md-pull-6 white-text">
+            <div class="col-md-6 col-md-pull-6 white-text" id="header-search">
                 <h1 class="bold">Vos restaurants préférés, livrés en moins de 30 minutes.</h1>
                 <form class="navbar-form navbar-left" role="search">
                     <div class="form-group white-background">
@@ -51,7 +44,7 @@
     <!-- Partie Martin -->
     <div class="container-fluid rows-with-margin">
         <div class="sub-container">
-            <h1 class="bold section-title">À la carte</h1>
+            <h2 class="bold section-title">À la carte</h2>
 
             <div class="row">
                 <a id="pepites" class="col-xs-12 col-sm-6 col-md-4 link-card">
@@ -232,6 +225,11 @@
             </div>
         </div>
     </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 
 </html>
