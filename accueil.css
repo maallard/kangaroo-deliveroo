@@ -2,7 +2,8 @@
 Background Images
 */
 #header-logo {
-    background-image: url("img/header-pasta.jpg");
+    background-image: url("img/header.jpg");
+    background-size: cover;
 }
 
 #pepites .container-title {
@@ -45,7 +46,7 @@ Background Images
 Background Colors
 */
 .orange-background {
-    background: /* #FFEAE4 */#ED8400;
+    background: #FFC20E;
 }
 
 .teal-background {
@@ -54,6 +55,10 @@ Background Colors
 
 .purple-background {
     background-color: #440063;
+}
+
+.blue-background {
+    background-color: #004165;
 }
 
 .white-background {
@@ -67,11 +72,19 @@ Background Colors
     background-color: #ED8400;
 }
 
+.beige-background {
+    background-color: #F1E5C7;
+}
+
 /*
 Text Color
 */
 .white-text, .white-text:hover {
     color: white;
+}
+
+.blue-text {
+    color: #004165;
 }
 
 /*
@@ -185,7 +198,7 @@ p, h1 {
 .with-triangle {
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(96deg, rgb(0, 204, 188) 14%, transparent 14.04%);
+    background-image: linear-gradient(96deg, #FFC20E 14%, transparent 14.04%);
 }
 
 .no-padding {
@@ -207,7 +220,7 @@ p, h1 {
 }
 
 .container-title h2 {
-    color: #ED8400;
+    color: white;
     text-align: center;
     width: 100%;
 }
