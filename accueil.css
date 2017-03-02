@@ -1,6 +1,7 @@
 /*
 Background Images
 */
+
 #header-logo {
     background-image: url("img/header.jpg");
     background-size: cover;
@@ -39,12 +40,14 @@ Background Images
 }
 
 .backgroundPartOne {
-  background: #00A0AF;
+    background: #00A0AF;
 }
+
 
 /*
 Background Colors
 */
+
 .orange-background {
     background: #FFC20E;
 }
@@ -68,6 +71,7 @@ Background Colors
 .yellow-background {
     background-color: #FFC20E;
 }
+
 .yellow-background.shade-on-hover:hover {
     background-color: #ED8400;
 }
@@ -76,9 +80,23 @@ Background Colors
     background-color: #F1E5C7;
 }
 
+.inversed-colors {
+    background-position: 0 -100%;
+}
+
+.transition-slide {
+    background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, transparent 50%, #F1E5C7 50%);
+    -webkit-transition: background-position .5s;
+    -moz-transition: background-position .5s;
+    transition: background-position .5s;
+}
+
+
 /*
 Text Color
 */
+
 .white-text, .white-text:hover {
     color: white;
 }
@@ -87,9 +105,20 @@ Text Color
     color: #004165;
 }
 
+.light-blue-text {
+    color: #00A0AF!important;
+}
+
+
 /*
 Other
 */
+
+a, a:hover, a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
 .rounded {
     border-radius: 5% !important;
 }
@@ -100,7 +129,6 @@ Other
 
 .shade-on-hover:hover {
     transition: background-color .5s ease;
-
 }
 
 .navbar-header img {
@@ -116,66 +144,72 @@ Other
 }
 
 #ParisNewYork {
-  background-image: url("img/img_Container2/Sydney1.png");
-  background-position: bottom;
+    background-image: url("img/img_Container2/Sydney1.png");
+    background-position: bottom;
 }
 
 #Tripletta {
-  background-image: url("img/img_Container2/australie-canberra.jpg");
-  background-position: top;
+    background-image: url("img/img_Container2/australie-canberra.jpg");
+    background-position: top;
 }
 
 #lePetitCambodge {
-  background-image: url("img/img_Container2/Melbourn.png");
+    background-image: url("img/img_Container2/Melbourn.png");
 }
 
 #lesCocottes {
-  background-image: url("img/img_Container2/The-Great-Central-Road.jpg");
+    background-image: url("img/img_Container2/The-Great-Central-Road.jpg");
 }
 
 #lePainQuotidien {
-  background-image: url("img/img_Container2/ululu.jpg");
+    background-image: url("img/img_Container2/ululu.jpg");
 }
 
 #SchwartzsDeli {
-  background-image: url("img/img_Container2/barriere de corail.png");
+    background-image: url("img/img_Container2/barriere de corail.png");
 }
 
 #jamesBun {
-  background-image: url("img/img_Container2/darwinCroco.jpg");
+    background-image: url("img/img_Container2/darwinCroco.jpg");
 }
 
 #leCamionQuiFume {
-  background-image: url("img/img_Container2/Hobart1.jpg");
+    background-image: url("img/img_Container2/Hobart1.jpg");
 }
 
 #jour {
-  background-image: url("img/img_Container2/diableTazmanie.jpg");
+    background-image: url("img/img_Container2/diableTazmanie.jpg");
 }
 
 #blendHamburger {
-  background-image: url("img/img_Container2/perth.jpg");
+    background-image: url("img/img_Container2/perth.jpg");
 }
 
 #mariaLuisa {
-  background-image: url("img/img_Container2/Kangourou.jpg");
+    background-image: url("img/img_Container2/Kangourou.jpg");
 }
 
 #bigFernand {
-  background-image: url("img/img_Container2/Kimberley.jpg");
+    background-image: url("img/img_Container2/Kimberley.jpg");
 }
 
-p, h1 {
-  text-align: justify;
-  color: #F1E5C7;
-  text-shadow: 1px 1px 1px grey;
+p {
+    text-align: justify;
 }
 
 .tailleImg {
-  background-size: cover;
-  background-position: center;
-  padding-top: 50%;
-  border-radius: 5%;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50%;
+    border-radius: 5%;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0px;
+}
+
+.bande-blanche {
+    padding: 40px 40px 40px 40px;
 }
 
 .container-title {
@@ -213,7 +247,6 @@ p, h1 {
     .with-triangle {
         background-image: linear-gradient(-6deg, rgb(0, 204, 188) 14%, transparent 14.04%);
     }
-
     #header-search {
         padding-top: 0px;
     }
@@ -235,29 +268,21 @@ p, h1 {
 }
 
 .text-shadow {
-    text-align: justify;
-    color: #F1E5C7;
     text-shadow: 1px 1px 1px grey;
 }
 
 .normal-weight {
-  font-size: 26px;
-  font-weight: bold;
-}
-
-a, a:hover, a:visited {
-    color: black;
-    text-decoration: none;
+    font-size: 26px;
+    font-weight: bold;
 }
 
 .section-title {
-  margin-bottom: 35px;
-  margin-top: 50px;
+    margin-bottom: 35px;
+    margin-top: 50px;
 }
 
 .pseudolink {
     text-decoration: underline;
-    color: rgb(0, 163, 150);
     color: #004165;
 }
 
@@ -303,7 +328,6 @@ input:focus {
         width: 1120px;
         margin: 0 auto;
     }
-
     .sub-container-header {
         padding-left: calc((100% - 1120px)/2);
         width: 100%;
@@ -311,97 +335,136 @@ input:focus {
 }
 
 
-
 /*
 CSS Clément
 */
-.shushi
-{
-  width:250px;
-  height: 150px;
+
+.shushi {
+    width: 250px;
+    height: 150px;
 }
-.ligne2
-{
-padding-top:3%;
+
+.ligne2 {
+    padding-top: 3%;
 }
-.contain-fond{
-	background-color: #F3F5F5;
-	padding-bottom: 7%;
+
+.contain-fond {
+    background-color: #F3F5F5;
+    padding-bottom: 7%;
 }
-.fond-blanc{
-	background-color: white;
+
+.fond-blanc {
+    background-color: white;
 }
-.titre1{
-	margin-top: 4%;
-	font-weight: bold;
+
+.titre1 {
+    margin-top: 0;
+    font-weight: bold;
 }
-.para1{
-	margin-top: 4%;
+
+.para1 {
+    margin-top: 4%;
 }
-.bouton1{
-	margin-top: 2%;
-	margin-bottom: 5%;
-	background-color:#00CCBC;
+
+.boite-pvt{
+    min-height: 500px;
 }
-.grostitre{
-	font-weight: bold;
+
+.bouton-vert {
+    background-color: #00CCBC;
 }
-.putaclic{
-	height: 50px;
-	margin-top: 2%;
+
+.grostitre {
+    font-weight: bold;
 }
-.texte1
-{
-  padding-right: 4%;
-  padding-left: 3%;
-  padding-top: 1%;
+
+.putaclic {
+    height: 50px;
+    margin-top: 2%;
 }
-.texte1 p{
-	color: white;
-	line-height: 25px;
+
+.texte11 {
+    padding-right: 15px;
+    padding-top: 1%;
 }
-.bouton{
-	margin-bottom: 8%;
-	background-color: #00CCBC;
+
+.texte12 {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 1%;
 }
-.couleur-fond1{
-	background-color:#FF3D3D;
+
+.texte11 {
+    padding-left: 15px;
+    padding-top: 1%;
 }
-.couleur-fond2{
-	background-color:#FF8100;
+
+.texte12 {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 1%;
 }
-.couleur-fond3{
-	background-color:#A0918A;
+
+.texte1 p {
+    color: white;
+    line-height: 25px;
 }
-.pad{
-	padding-left: 4%;
+
+.bouton {
+    margin-bottom: 8%;
+    background-color: #00CCBC;
 }
-.petitTitre{
-	color:white;
-	font-weight: bold;
+
+.couleur-fond1 {
+    background-color: #FF3D3D;
 }
+
+.couleur-fond2 {
+    background-color: #FF8100;
+}
+
+.couleur-fond3 {
+    background-color: #A0918A;
+}
+
+.pad {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.petitTitre {
+    color: white;
+    font-weight: bold;
+}
+
 
 /*Start CSS FOOTER*/
-.liste ul li{
-	list-style-type: none;
-	color: white;
-	margin-top: 3%;
-	font-size: 12px;
-	margin-left: 1%;
-	padding-right: auto;
+
+.liste ul li {
+    list-style-type: none;
+    color: white;
+    margin-top: 3%;
+    font-size: 12px;
+    margin-left: 1%;
+    padding-right: auto;
+    margin-bottom: 25px;
 }
 
-.copy2{
-	color: white;
-	opacity: 0.7;
-	margin-top: 2%;
+.copy2 {
+    color: white;
+    opacity: 0.7;
+    margin-top: 2%;
 }
-.putaclic2{
-	margin:auto;
-	height: 50px;
+
+.putaclic2 {
+    margin: auto;
+    height: 50px;
 }
-.fond-footer{
-	background-color: #004165;
-	margin-top: 6%;
+
+.fond-footer {
+    background-color: #004165;
+    margin-top: 6%;
 }
+
+
 /*End CSS FOOTER*/

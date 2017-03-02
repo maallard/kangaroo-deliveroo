@@ -1,8 +1,17 @@
 # TODO
 
-- responsive -> breakpoints avec media-queries pour les petits écrans et grands écrans
-- centrer les images de la partie philippe
-- footer
-- intégrer partie clément
 
-- center logo brand img
+- chercher font alternative -> clément
+
+- partie pvt -> martin
+
+- center logo brand img -> philippe
+
+- remetttre le truc blanc dans navbar -> martin
+- corriger le bout de border/background lorsque scrollé au top -> martin
+
+
+- images shushi -> philippe
+
+- navbar -> demain
+- reseau sociaux -> demain
