@@ -23,7 +23,7 @@
 
 <body>
 
-    <nav class="navbar navbar-default">
+    <nav class="navbar transparent-background navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -33,18 +33,20 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Brand</a>
+                <a class="navbar-brand" href="#"><img height="35" width="35" src="img/roo.svg" class="inline-block"/> <span class="bold biggerer white-text">kangooroo</span></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right white-background">
                     <li class="navbar-form">
-                        <button type="button" data-target="modal-login" data-toggle="modal" class="btn btn-default">Connexion</button>
+                        <button type="button" data-target="modal-login" data-toggle="modal" class="btn flat rounded yellow-background white-text shade-on-hover login-button">Connexion</button>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <img class="img-circle" height="20" width="20" src="img/Flag_of_France.png" /> <span class="caret"></span>
+                        </a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Allemagne</a></li>
                             <li><a href="#">Australie</a></li>
@@ -61,7 +63,7 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle bigger bold" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Français <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Français</a></li>
                             <li><a href="#">English</a></li>
@@ -82,10 +84,10 @@
                 </div>
             </div>
             <div class="col-md-6 col-md-pull-6 col-lg-4 col-lg-pull-8 white-text" id="header-search">
-                <h1 class="bold">Vos restaurants préférés, livrés en moins de 30 minutes.</h1>
+                <h1 class="bold text-shadow">Vos restaurants préférés, livrés en moins de 30 minutes.</h1>
                 <form class="navbar-form navbar-left" role="search">
                     <div class="form-group white-background">
-                        <input type="text" class="form-control flat no-border" placeholder="Saisissez votre adresse">
+                        <input type="text" class="form-control flat no-border purple-button" placeholder="Saisissez votre adresse">
                     </div>
                     <button type="submit" class="btn flat purple-background">Voir les restaurants</button>
                 </form>
@@ -96,7 +98,7 @@
     <!-- Partie Martin -->
     <div class="container-fluid rows-with-margin backgroundPartOne">
         <div class="sub-container">
-            <h1 class="bold section-title">L'Australie... Pays du bout du monde.</h1>
+            <h1 class="bold section-title text-shadow">L'Australie... Pays du bout du monde.</h1>
 
             <div class="row">
                 <a id="pepites" class="col-xs-12 col-sm-6 col-md-4 link-card">
@@ -104,14 +106,14 @@
                         <h2 class="bold">Meat pie</h2>
                     </div>
                     <p>Découvrez la sélection gourmande de notre équipe experte et passionnée.</p>
-                    <p class= "pseudolink">Voir Pépites de quartier →</p>
+                    <p class="pseudolink">Voir Pépites de quartier →</p>
                 </a>
                 <a id="grands-plaisirs" class="col-xs-12 col-sm-6 col-md-8 link-card">
                     <div class="container-title vertical-align fade-on-hover">
                         <h2 class="bold">Grands plaisirs, les vins Australiens</h2>
                     </div>
                     <p>Se régaler est une affaire de tous les jours. Une sélection à déguster.</p>
-                  <br />
+                    <br />
                     <p class="pseudolink">Voir Grands plaisirs, petits prix →</p>
                 </a>
             </div>
@@ -171,29 +173,31 @@
             <div class="row">
                 <div class="col-xs-12 col-md-4">
                     <a href="#">
-                      <div id="ParisNewYork" class="tailleImg fade-on-hover"></div>
+                        <div id="ParisNewYork" class="tailleImg fade-on-hover"></div>
                         <!-- <img class="img-responsive fade-on-hover" src="https://cdn1.deliveroo.co.uk/media/menus/20218/360x180.jpg?v=1485770486" alt="hamburger" />  -->
                         <h3 class="bold">Sydney</h3>
-                        <p>Découvrez la beauté naturelle et la culture de Sydney autour de la baie de Sydney et du quartier historique des Rocks. Explorez ses fameuses plages côtières telles que Bondi, Bronte, Coogee et Palm Beach. Partez marcher dans le bush du parc national de Sydney Harbour, dînez dans des restaurants de haute gastronomie et visitez les Blue Mountains. Participez aux animations de Sydney, de Mardi Gras aux feux d'artifice du nouvel an..</p>
+                        <p>Découvrez la beauté naturelle et la culture de Sydney autour de la baie de Sydney et du quartier historique des Rocks. Explorez ses fameuses plages côtières telles que Bondi, Bronte, Coogee et Palm Beach. Partez marcher dans le
+                            bush du parc national de Sydney Harbour, dînez dans des restaurants de haute gastronomie et visitez les Blue Mountains. Participez aux animations de Sydney, de Mardi Gras aux feux d'artifice du nouvel an..</p>
                     </a>
                 </div>
 
                 <div class="col-xs-12 col-md-4">
                     <a href="#">
-                      <div id="Tripletta" class="tailleImg fade-on-hover"></div>
+                        <div id="Tripletta" class="tailleImg fade-on-hover"></div>
                         <!-- <img class="img-responsive fade-on-hover" src="https://cdn1.deliveroo.co.uk/media/menus/24164/360x180.jpg?v=1473859229" alt="Pizza sortie du four" /> -->
                         <h3 class="bold">Canberra</h3>
-                        <p>Canberra, capitale de l'Australie, n'est que la neuvième ville du pays en terme de population ! Elle se situe au nord de l'Australian Capital Territory (ACT), le plus petit territoire du pays.
-                            Créée au début du 20ème siècle pour départager Melbourne et Sydney, toutes deux prétendantes au statut de capitale,.</p>
+                        <p>Canberra, capitale de l'Australie, n'est que la neuvième ville du pays en terme de population ! Elle se situe au nord de l'Australian Capital Territory (ACT), le plus petit territoire du pays. Créée au début du 20ème siècle pour
+                            départager Melbourne et Sydney, toutes deux prétendantes au statut de capitale,.</p>
                     </a>
                 </div>
 
                 <div class="col-xs-12 col-md-4">
                     <a href="#">
-                      <div id="lePetitCambodge" class="tailleImg fade-on-hover"></div>
+                        <div id="lePetitCambodge" class="tailleImg fade-on-hover"></div>
                         <!-- <img class="img-responsive fade-on-hover" src="https://cdn1.deliveroo.co.uk/media/menus/24538/360x180.jpg?v=1474541235" alt="Le petit Cambodge" /> -->
                         <h3 class="bold">Melbourne</h3>
-                        <p>Découvrez les allées et les toits du Melbourne secret, le centre névralgique culturel de Federation Square, les bars, boutiques et restos branchés, sans oublier le stade MCG. Parcourez St Kilda, les jardins botaniques royaux, le quartier bohème de Brunswick Street et le Spring Racing Carnival, événement sportif d'ampleur nationale. Vibrez lors d'événements de renommée mondiale, tels que le Grand Prix d'Australie.</p>
+                        <p>Découvrez les allées et les toits du Melbourne secret, le centre névralgique culturel de Federation Square, les bars, boutiques et restos branchés, sans oublier le stade MCG. Parcourez St Kilda, les jardins botaniques royaux, le
+                            quartier bohème de Brunswick Street et le Spring Racing Carnival, événement sportif d'ampleur nationale. Vibrez lors d'événements de renommée mondiale, tels que le Grand Prix d'Australie.</p>
                     </a>
                 </div>
             </div>
@@ -201,30 +205,33 @@
             <div class="row">
                 <div class="col-xs-12 col-md-4">
                     <a href="#">
-                      <div id="lesCocottes" class="tailleImg fade-on-hover"></div>
+                        <div id="lesCocottes" class="tailleImg fade-on-hover"></div>
                         <!-- <img class="img-responsive fade-on-hover" src="https://cdn1.deliveroo.co.uk/media/menus/15869/360x180.jpg?v=1484749423" alt="Entrée" /> -->
                         <h3 class="bold">Great central road</h3>
-                        <p>La Great Central Road est une route le plus souvent non goudronnée de l'outback australien qui relie sur 1 126 km Laverton, en Australie-Occidentale à Yulara, dans le Territoire du Nord (près d'Uluru/Ayres Rock).
-                            Bien que toujours recommandée uniquement aux véhicules à quatre roues motrices, la route est désormais considérée comme ayant un niveau approprié aux véhicules à deux roues motrices et aux caravanes. C'est la route la plus directe de Perth à Uluru, et le nombre de véhicules empruntant la piste est d'environ 10 000 par an.
+                        <p>La Great Central Road est une route le plus souvent non goudronnée de l'outback australien qui relie sur 1 126 km Laverton, en Australie-Occidentale à Yulara, dans le Territoire du Nord (près d'Uluru/Ayres Rock). Bien que toujours
+                            recommandée uniquement aux véhicules à quatre roues motrices, la route est désormais considérée comme ayant un niveau approprié aux véhicules à deux roues motrices et aux caravanes. C'est la route la plus directe de Perth à
+                            Uluru, et le nombre de véhicules empruntant la piste est d'environ 10 000 par an.
                         </p>
                     </a>
                 </div>
 
                 <div class="col-xs-12 col-md-4">
                     <a href="#">
-                      <div id="lePainQuotidien" class="tailleImg fade-on-hover"></div>
+                        <div id="lePainQuotidien" class="tailleImg fade-on-hover"></div>
                         <!-- <img class="img-responsive fade-on-hover" src="https://cdn1.deliveroo.co.uk/media/menus/17697/360x180.jpg?v=1473949344" alt="Le pain au quotidien" /> -->
                         <h3 class="bold">Uluru</h3>
-                        <p>C'est un lieu sacré pour les peuples aborigènes Pitjantjatjara et Yankunytjatjara, à la base duquel ils pratiquent parfois des rituels et réalisent des peintures rupestres d'une grande importance culturelle. Ceci combiné à ses singularités géologiques et hydrologiques, ainsi qu'aux remarquables teintes qu'il peut prendre, en particulier au coucher du soleil, en a fait un des emblèmes de l'Australie, depuis sa découverte par les Occidentaux en 1873.</p>
+                        <p>C'est un lieu sacré pour les peuples aborigènes Pitjantjatjara et Yankunytjatjara, à la base duquel ils pratiquent parfois des rituels et réalisent des peintures rupestres d'une grande importance culturelle. Ceci combiné à ses
+                            singularités géologiques et hydrologiques, ainsi qu'aux remarquables teintes qu'il peut prendre, en particulier au coucher du soleil, en a fait un des emblèmes de l'Australie, depuis sa découverte par les Occidentaux en 1873.</p>
                     </a>
                 </div>
 
                 <div class="col-xs-12 col-md-4">
                     <a href="#">
-                      <div id="SchwartzsDeli" class="tailleImg fade-on-hover"></div>
+                        <div id="SchwartzsDeli" class="tailleImg fade-on-hover"></div>
                         <!-- <img class="img-responsive fade-on-hover" src="https://cdn1.deliveroo.co.uk/media/menus/10381/360x180.jpg?v=1473408889" alt="Cuisine indienne" /> -->
                         <h3 class="bold">La Grande Barrière de corail</h3>
-                        <p>La Grande Barrière de corail est le plus grand récif corallien du monde, comptant plus de 2 900 récifs et 900 îles La Grande Barrière de corail peut être vue de l'espace et constitue la plus grande structure créée par des organismes vivants du monde. La structure du récif est composée et construite de milliards d'organismes minuscules, connus en tant que coraux Polypes.</p>
+                        <p>La Grande Barrière de corail est le plus grand récif corallien du monde, comptant plus de 2 900 récifs et 900 îles La Grande Barrière de corail peut être vue de l'espace et constitue la plus grande structure créée par des organismes
+                            vivants du monde. La structure du récif est composée et construite de milliards d'organismes minuscules, connus en tant que coraux Polypes.</p>
                     </a>
                 </div>
             </div>
@@ -232,29 +239,33 @@
             <div class="row">
                 <div class="col-xs-12 col-md-4">
                     <a href="#">
-                      <div id="jamesBun" class="tailleImg fade-on-hover"></div>
+                        <div id="jamesBun" class="tailleImg fade-on-hover"></div>
                         <!-- <img class="img-responsive fade-on-hover" src="https://cdn1.deliveroo.co.uk/media/menus/16532/360x180.jpg?v=1473408136" alt="Cuisine vietnamienne" /> -->
                         <h3 class="bold">Darwin</h3>
-                        <p>Le Crocodylus Park est l'endroit idéal pour voir, en face à face, une immense variété d'animaux provenant de partout dans le monde. Comme son nom l'indique, le célèbre crocodile d'Australie est le principal point d'intérêt du parc et vous pourrez voir beaucoup de ces énormes reptiles pendant votre visite du petit zoo. </p>
+                        <p>Le Crocodylus Park est l'endroit idéal pour voir, en face à face, une immense variété d'animaux provenant de partout dans le monde. Comme son nom l'indique, le célèbre crocodile d'Australie est le principal point d'intérêt du parc
+                            et vous pourrez voir beaucoup de ces énormes reptiles pendant votre visite du petit zoo. </p>
 
                     </a>
                 </div>
 
                 <div class="col-xs-12 col-md-4">
                     <a href="#">
-                      <div id="leCamionQuiFume" class="tailleImg fade-on-hover"></div>
+                        <div id="leCamionQuiFume" class="tailleImg fade-on-hover"></div>
                         <!-- <img class="img-responsive fade-on-hover" src="https://cdn1.deliveroo.co.uk/media/menus/24502/360x180.jpg?v=1476971467" alt="Food truck" /> -->
                         <h3 class="bold">La Tazmanie: Hobart</h3>
-                        <p>Imprégnez-vous de l'air marin, de la culture créative et de l'histoire coloniale de Hobart, qui se situe sur la grande rivière de la Derwent, à l'ombre des pics déchiquetés du mont Wellington. La meilleure façon de visiter ses rues aux bâtiments de grès et ses cours d'eau est à pied, en partant des marchés animés de Salamanca jusqu'au port de pêche. Explorez le mont Wellington en VTT ou à pied, ou passez en kayak devant les quais de la cité au crépuscule..</p>
+                        <p>Imprégnez-vous de l'air marin, de la culture créative et de l'histoire coloniale de Hobart, qui se situe sur la grande rivière de la Derwent, à l'ombre des pics déchiquetés du mont Wellington. La meilleure façon de visiter ses
+                            rues aux bâtiments de grès et ses cours d'eau est à pied, en partant des marchés animés de Salamanca jusqu'au port de pêche. Explorez le mont Wellington en VTT ou à pied, ou passez en kayak devant les quais de la cité au crépuscule..</p>
                     </a>
                 </div>
 
                 <div class="col-xs-12 col-md-4">
                     <a href="#">
-                      <div id="jour" class="tailleImg fade-on-hover"></div>
+                        <div id="jour" class="tailleImg fade-on-hover"></div>
                         <!-- <img class="img-responsive fade-on-hover" src="https://cdn1.deliveroo.co.uk/media/menus/20818/360x180.jpg?v=1476440556" alt="Restaurant de salade" /> -->
                         <h3 class="bold">Le diable de Tazmanie</h3>
-                        <p>Le marsupial carnivore est actuellement victime d’un cancer contagieux et incurable. La contagion s’effectuant par morsures, résultats des luttes que se livrent les diables pour la défense de leur territoire ou de leur nourriture.Mis à par certains zoos, comme celui de Beerwah  dans le Queensland -qui en héberge quelques spécimens- le diable peut être observé sur son île natale,  la Tasmanie, quasiment exclusivement dans des parcs et réserves dédiés.  Pour rencontrer ce sympathique (mais colérique !) animal, rendez-vous :</p>
+                        <p>Le marsupial carnivore est actuellement victime d’un cancer contagieux et incurable. La contagion s’effectuant par morsures, résultats des luttes que se livrent les diables pour la défense de leur territoire ou de leur nourriture.Mis
+                            à par certains zoos, comme celui de Beerwah dans le Queensland -qui en héberge quelques spécimens- le diable peut être observé sur son île natale, la Tasmanie, quasiment exclusivement dans des parcs et réserves dédiés. Pour
+                            rencontrer ce sympathique (mais colérique !) animal, rendez-vous :</p>
                     </a>
                 </div>
             </div>
@@ -262,19 +273,22 @@
             <div class="row">
                 <div class="col-xs-12 col-md-4">
                     <a href="#">
-                      <div id="blendHamburger" class="tailleImg fade-on-hover"></div>
+                        <div id="blendHamburger" class="tailleImg fade-on-hover"></div>
                         <!-- <img class="img-responsive fade-on-hover" src="https://cdn1.deliveroo.co.uk/media/menus/24723/360x180.jpg?v=1475058644" alt="Blend Hamburger" /> -->
                         <h3 class="bold">Perth</h3>
-                        <p>Explorez l'Australie de l Óuest à partir de Perth et de ses magnifiques plages. Visitez l'île de Rottnest Island et Freemantle en route vers le sud et les domaines viticoles de Margaret River, les zones aurifères et le lac rose de Kalgoorlie, ainsi que la côte majestueuse d'Albany. Vers le nord : le désert des Pinnacles et le parc national de Karijini, sans oublier les trésors sous-marins de Ningaloo et Monkey Mia. Dans le nord des Kimberley, un itinéraire épique pour 4x4 relie la plage de Cable Beach de Broome à Kununurra et à la réserve d'El Questro.</p>
+                        <p>Explorez l'Australie de l Óuest à partir de Perth et de ses magnifiques plages. Visitez l'île de Rottnest Island et Freemantle en route vers le sud et les domaines viticoles de Margaret River, les zones aurifères et le lac rose
+                            de Kalgoorlie, ainsi que la côte majestueuse d'Albany. Vers le nord : le désert des Pinnacles et le parc national de Karijini, sans oublier les trésors sous-marins de Ningaloo et Monkey Mia. Dans le nord des Kimberley, un itinéraire
+                            épique pour 4x4 relie la plage de Cable Beach de Broome à Kununurra et à la réserve d'El Questro.</p>
                     </a>
                 </div>
 
                 <div class="col-xs-12 col-md-4">
                     <a href="#">
-                      <div id="mariaLuisa" class="tailleImg fade-on-hover"></div>
+                        <div id="mariaLuisa" class="tailleImg fade-on-hover"></div>
                         <!-- <img class="img-responsive fade-on-hover" src="https://cdn1.deliveroo.co.uk/media/menus/7730/360x180.jpg?v=1473408923" alt="Pizza Maria Luisa" /> -->
                         <h3 class="bold">Le kangourou</h3>
-                        <p>C’est au large d’Adelaide en Australie du Sud que se trouve Kangaroo Island, un petit coin de paradis. C’est l’île nature par excellence, l’un des rares endroits en Australie où l’on peut observer en liberté : des kangourous, des pingouins, des opossums, des wallabies, des émeus, des koalas et des ornithorynques. On peut aussi plonger, et observer et nager avec les phoques et y découvrir les baleines, en saison.</p>
+                        <p>C’est au large d’Adelaide en Australie du Sud que se trouve Kangaroo Island, un petit coin de paradis. C’est l’île nature par excellence, l’un des rares endroits en Australie où l’on peut observer en liberté : des kangourous, des
+                            pingouins, des opossums, des wallabies, des émeus, des koalas et des ornithorynques. On peut aussi plonger, et observer et nager avec les phoques et y découvrir les baleines, en saison.</p>
                     </a>
                 </div>
 
@@ -283,7 +297,9 @@
                         <div id="bigFernand" class="tailleImg fade-on-hover"></div>
                         <!-- <img class="img-responsive fade-on-hover" src="https://cdn1.deliveroo.co.uk/media/menus/5220/360x180.jpg?v=1481970762" alt="Burger français"> -->
                         <h3 class="bold">Kimberley</h3>
-                        <p>Laissez-vous fasciner par les gorges accidentées, les voies navigables riches d'aventures, et l'océan incandescent des Kimberley, dans la partie nord-ouest de l'Australie. Faites une promenade à dos de chameau au soleil couchant à Broome, puis partez en 4x4 sur la route Gibb River Road en direction de Kununurra, du festival de l'Ord Valley Muster et des montagnes en forme de ruches des Bungle Bungles du parc national de Purnululu. De Broome, vous pouvez également rejoindre la péninsule de Dampier, aussi belle qu'isolée.</p>
+                        <p>Laissez-vous fasciner par les gorges accidentées, les voies navigables riches d'aventures, et l'océan incandescent des Kimberley, dans la partie nord-ouest de l'Australie. Faites une promenade à dos de chameau au soleil couchant
+                            à Broome, puis partez en 4x4 sur la route Gibb River Road en direction de Kununurra, du festival de l'Ord Valley Muster et des montagnes en forme de ruches des Bungle Bungles du parc national de Purnululu. De Broome, vous pouvez
+                            également rejoindre la péninsule de Dampier, aussi belle qu'isolée.</p>
                     </a>
                 </div>
             </div>

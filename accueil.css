@@ -60,16 +60,44 @@ Background Colors
     background-color: #FFFFFF;
 }
 
+.yellow-background {
+    background-color: #FFC20E;
+}
+.yellow-background.shade-on-hover:hover {
+    background-color: #ED8400;
+}
+
 /*
 Text Color
 */
-.white-text {
+.white-text, .white-text:hover {
     color: white;
 }
 
 /*
 Other
 */
+.rounded {
+    border-radius: 5% !important;
+}
+
+.shade-on-hover {
+    transition: background-color .5s ease;
+}
+
+.shade-on-hover:hover {
+    transition: background-color .5s ease;
+
+}
+
+.navbar-header img {
+    display: inline-block;
+}
+
+.transparent-background {
+    background-color: transparent;
+}
+
 .rows-with-margin .row {
     margin-bottom: 20px;
 }
@@ -191,10 +219,12 @@ p, h1 {
 
 .bold {
     font-weight: bold;
+}
+
+.text-shadow {
     text-align: justify;
     color: #F1E5C7;
     text-shadow: 1px 1px 1px grey;
-
 }
 
 .normal-weight {
@@ -223,9 +253,24 @@ a, a:hover, a:visited {
 }
 
 .flat {
-    padding: 10px 20px 10px 20px;
     height: 100%;
     border-radius: 0%;
+}
+
+.flat.purple-button {
+    padding: 10px 20px 10px 20px;
+}
+
+.flat.login-button {
+    padding: 5px 15px 5px 15px;
+}
+
+.bigger {
+    font-size: 16px;
+}
+
+.biggerer {
+    font-size: 24px;
 }
 
 .inline-block {

@@ -4,3 +4,5 @@
 - centrer les images de la partie philippe
 - footer
 - intégrer partie clément
+
+- center logo brand img
