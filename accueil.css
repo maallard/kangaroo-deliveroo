@@ -1,33 +1,41 @@
 #pepites .container-title {
-    background-image: url("img/title-pepites.jpg");
+    background-image: url("img/img_Container1/meat pie.png");
 }
 
 #grands-plaisirs .container-title {
-    background-image: url("img/title-grands-plaisirs.jpg");
+    background-image: url("img/img_Container1/vin.png");
 }
 
 #creme .container-title {
-    background-image: url("img/title-creme.jpg");
+    background-image: url("img/img_Container1/histoire2.png");
 }
 
 #desserts .container-title {
-    background-image: url("img/title-desserts.jpg");
+    background-image: url("img/img_Container1/Arboregenes.png");
+    background-position: bottom;
 }
 
 #equilibre .container-title {
-    background-image: url("img/title-equilibre.jpg");
+    background-image: url("img/img_Container1/faune.png");
+    background-position: center;
 }
 
 #exclusivite .container-title {
-    background-image: url("img/title-exclusivite.jpg");
+    background-image: url("img/img_Container1/sportAust.jpg  ");
+    background-position: center;
 }
 
 #plaisirs-coupables .container-title {
-    background-image: url("img/title-plaisirs-coupables.jpg");
+    background-image: url("img/img_Container1/7img_kangaroo.jpg");
+    background-position: center;
+}
+
+.backgroundPartOne {
+  background: #00A0AF;
 }
 
 .orange-background {
-    background: #FFEAE4;
+    background: /* #FFEAE4 */#ED8400;
 }
 
 .rows-with-margin .row {
@@ -35,70 +43,67 @@
 }
 
 #ParisNewYork {
-    background-image: url("img/parisNY.jpg");
-    /* background-size: cover;
-    width: 360px;
-    height: 180px; */
+  background-image: url("img/img_Container2/Sydney1.png");
+  background-position: bottom;
 }
 
 #Tripletta {
-  background-image: url("img/Tripletta.jpg");
+  background-image: url("img/img_Container2/australie-canberra.jpg");
+  background-position: top;
 }
 
 #lePetitCambodge {
-  background-image: url("img/lePetitCambodge.jpg");
+  background-image: url("img/img_Container2/Melbourn.png");
 }
 
 #lesCocottes {
-  background-image: url("img/lesCocottes.jpg");
+  background-image: url("img/img_Container2/The-Great-Central-Road.jpg");
 }
 
 #lePainQuotidien {
-  background-image: url("img/lePainAuQuotidien.jpg");
+  background-image: url("img/img_Container2/ululu.jpg");
 }
 
 #SchwartzsDeli {
-  background-image: url("img/schwartzsDeli.jpg");
+  background-image: url("img/img_Container2/barriere de corail.png");
 }
 
 #jamesBun {
-  background-image: url("img/jamesBun.jpg");
+  background-image: url("img/img_Container2/darwinCroco.jpg");
 }
 
 #leCamionQuiFume {
-  background-image: url("img/leCamionQuiFume.jpg");
+  background-image: url("img/img_Container2/Hobart1.jpg");
 }
 
 #jour {
-  background-image: url("img/jour.jpg");
+  background-image: url("img/img_Container2/diableTazmanie.jpg");
 }
 
 #blendHamburger {
-  background-image: url("img/blendHamburger.jpg");
+  background-image: url("img/img_Container2/perth.jpg");
 }
 
 #mariaLuisa {
-  background-image: url("img/mariaLuisa.jpg");
+  background-image: url("img/img_Container2/Kangourou.jpg");
 }
 
 #bigFernand {
-  background-image: url("img/bigFernand.jpg");
+  background-image: url("img/img_Container2/Kimberley.jpg");
+}
+
+p, h1 {
+  text-align: justify;
+  color: #F1E5C7;
+  text-shadow: 1px 1px 1px grey; 
 }
 
 .tailleImg {
   background-size: cover;
   background-position: center;
   padding-top: 50%;
+  border-radius: 5%;
 }
-
-/*@media screen and (max-width: 992px) {
-    .tailleImg {
-      width: 100%;
-      height: 350px;
-      max-height: 75%;
-      margin: 0 auto;
-    }
-}*/
 
 .container-title {
     height: 150px;
@@ -113,17 +118,22 @@
 }
 
 .container-title h2 {
-    color: white;
+    color: #ED8400;
     text-align: center;
     width: 100%;
 }
 
 .fade-on-hover:hover {
     opacity: 0.8;
+    box-shadow: 2px 2px 2px grey;
 }
 
 .bold {
     font-weight: bold;
+    text-align: justify;
+    color: #F1E5C7;
+    text-shadow: 1px 1px 1px grey;
+
 }
 
 .normal-weight {
@@ -131,7 +141,7 @@
   font-weight: bold;
 }
 
-a, a:hover {
+a, a:hover, a:visited {
     color: black;
     text-decoration: none;
 }
@@ -144,6 +154,7 @@ a, a:hover {
 .pseudolink {
     text-decoration: underline;
     color: rgb(0, 163, 150);
+    color: #004165;
 }
 
 @media screen and (min-width: 1200px) {
@@ -152,28 +163,3 @@ a, a:hover {
         margin: 0 auto;
     }
 }
-
-/*.footer {
-  background-color: #2e3333;
-  margin-bottom: 10px;
-}
-
-.footer-primary {
-  text-align: center;
-  padding-bottom: 60px;
-  padding-top: 60px;
-  margin: auto 0px;
-}
-
-.footer-primary a {
-  color: #ffffff;
-  font-size: 14px;
-  border: solid green 1px;
-  margin-right: 20px;
-
-}
-
-.footer-secondary {
-  background: #2e3333;
-  float: left;
-}*/
