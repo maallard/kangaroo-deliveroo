@@ -314,5 +314,24 @@ padding-top:3%;
 /*Start CSS FOOTER*/
 .liste ul li{
 	list-style-type: none;
+	color: white;
+	margin-top: 3%;
+	font-size: 12px;
+	margin-left: 1%;
+	padding-right: auto;
+}
+
+.copy2{
+	color: white;
+	opacity: 0.7;
+	margin-top: 2%;
+}
+.putaclic2{
+	margin:auto;
+	height: 50px;
+}
+.fond-footer{
+	background-color: #004165;
+	margin-top: 6%;
 }
 /*End CSS FOOTER*/
