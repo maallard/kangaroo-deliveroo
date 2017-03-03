@@ -352,9 +352,22 @@ input:focus {
 CSS Clément
 */
 
-.shushi {
+/*.shushi {
     width: 250px;
     height: 150px;
+}*/
+
+.brochures {
+  width: 400px;
+  height: auto;
+  margin: 0 auto;
+  margin: 5px auto;
+}
+
+.carteAust {
+  width: 93%;
+  height: auto;
+  margin: 5px auto;
 }
 
 .ligne2 {
@@ -381,6 +394,7 @@ CSS Clément
 
 .boite-pvt {
     min-height: 500px;
+    margin-top: 20px;
 }
 
 .bouton-vert {
