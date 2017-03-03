@@ -1,3 +1,8 @@
+body {
+    font-family: "Helvetica Neue, Helvetica";
+}
+
+
 /*
 Background Images
 */
@@ -96,6 +101,7 @@ Background Colors
 /*
 Text Color
 */
+
 .white-text, .white-text:hover {
     color: white;
 }
@@ -112,14 +118,14 @@ Text Color
 /*
 Other
 */
-#navbar .container-fluid{
+
+#navbar .container-fluid {
     height: 60px;
 }
 
 .navbar-header {
     height: 100%;
 }
-
 
 a, a:hover, a:visited {
     color: inherit;
@@ -373,7 +379,7 @@ CSS Clément
     margin-top: 4%;
 }
 
-.boite-pvt{
+.boite-pvt {
     min-height: 500px;
 }
 
@@ -387,29 +393,22 @@ CSS Clément
 
 .putaclic {
     height: 50px;
-    margin-top: 2%;
 }
 
 .texte11 {
     padding-right: 15px;
-    padding-top: 1%;
+    margin-top: 15px;
 }
 
 .texte12 {
     padding-right: 15px;
     padding-left: 15px;
-    padding-top: 1%;
+    margin-top: 15px;
 }
 
-.texte11 {
+.texte13 {
     padding-left: 15px;
-    padding-top: 1%;
-}
-
-.texte12 {
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-top: 1%;
+    margin-top: 15px;
 }
 
 .texte1 p {
@@ -461,6 +460,17 @@ CSS Clément
     color: white;
     opacity: 0.7;
     margin-top: 2%;
+}
+
+.picto {
+    margin-top: 2%;
+    font-size: 25px;
+    color: white;
+    padding-left: 5%;
+}
+
+.picto2 {
+    margin-left: 15%;
 }
 
 .putaclic2 {
