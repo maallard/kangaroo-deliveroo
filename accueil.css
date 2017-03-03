@@ -96,7 +96,6 @@ Background Colors
 /*
 Text Color
 */
-
 .white-text, .white-text:hover {
     color: white;
 }
@@ -113,6 +112,14 @@ Text Color
 /*
 Other
 */
+#navbar .container-fluid{
+    height: 60px;
+}
+
+.navbar-header {
+    height: 100%;
+}
+
 
 a, a:hover, a:visited {
     color: inherit;
