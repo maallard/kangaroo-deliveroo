@@ -206,6 +206,13 @@ a, a:hover, a:visited {
     background-image: url("img/img_Container2/Kimberley.jpg");
 }
 
+#route {
+    background-image: url('img/routeAust.jpg');
+    background-size: cover;;
+}
+
+
+
 p {
     text-align: justify;
 }
@@ -365,13 +372,16 @@ CSS Clément
 }
 
 .carteAust {
-  width: 93%;
-  height: auto;
-  margin: 5px auto;
+  width: 100%;
 }
 
 .ligne2 {
     padding-top: 3%;
+}
+
+.boite-pvt img {
+    width: 100%;
+    height: auto;
 }
 
 .contain-fond {
@@ -393,8 +403,7 @@ CSS Clément
 }
 
 .boite-pvt {
-    min-height: 500px;
-    margin-top: 20px;
+    min-height: 550px;
 }
 
 .bouton-vert {
@@ -407,6 +416,11 @@ CSS Clément
 
 .putaclic {
     height: 50px;
+}
+
+.full-width-image {
+    height: 100%;
+    width: 100%;
 }
 
 .texte11 {
@@ -455,8 +469,29 @@ CSS Clément
 .petitTitre {
     color: white;
     font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.boite-pvt p {
+    margin-bottom: 20px;
 }
 
+.flex {
+    display: flex;
+}
+
+.col {
+    flex: 1; /* additionally, equal width */
+}
+ .half {
+     width: 50%
+ }
+
+ #photo-smartphone {
+    background-image: url('img/smartphone.jpg');
+    background-size: cover;
+    background-position: center;
+ }
 
 /*Start CSS FOOTER*/
 
