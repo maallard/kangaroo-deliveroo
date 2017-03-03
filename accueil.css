@@ -221,7 +221,6 @@ p {
     background-size: cover;
     background-position: center;
     padding-top: 50%;
-    border-radius: 5%;
 }
 
 .no-margin-bottom {
@@ -491,6 +490,22 @@ CSS Clément
     background-image: url('img/smartphone.jpg');
     background-size: cover;
     background-position: center;
+ }
+
+ @media screen and (max-width: 768px) {
+     .flex {
+         flex-direction: column-reverse;;
+         flex: auto;
+     }
+
+     .half {
+         width: 100%;1
+     }
+
+     #photo-smartphone {
+        height: 150px;
+        max-height: 50%;
+     }
  }
 
 /*Start CSS FOOTER*/
